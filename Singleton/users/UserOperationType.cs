@@ -1,0 +1,19 @@
+namespace Singleton
+{
+    public enum UserOperationType
+    {
+        SIGN_UP, 
+        SIGN_IN, 
+        LOG_OUT, 
+        CREATE_PUBLIC_REPOSITORY, 
+        CREATE_PRIVATE_REPOSITORY, 
+        LOOK_FOR_REPOSITORY, 
+        LOOK_FOR_USER,
+        LIST_OWN_REPOSITORIES,
+        LIST_CONTRIBUTED_REPOSITORIES,
+        SELECT_REPOSITORY,
+        LIST_CLONED_REPOSITORIES,
+        LIST_ALL_PUBLIC_REPOSITORIES,
+        LIST_RATING_REPOSITORIES
+    }
+}
